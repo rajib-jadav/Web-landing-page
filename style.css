@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header-Styling*/
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:black;
+    height:80px;
+}
+
+#logo{
+    align-items: start;
+    color: white;
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+ul li a {
+    color: white;
+    text-decoration:none;
+}
+
+button{
+    font-size: 16px medium;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin-right: 50px;
+}
+
+/*main-setion-Design*/
+#continer{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+/* Box-Style-Deisgn */
+.box{
+    height: 100px;
+    width: 100px;
+    display:inline-block;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #c4c4c4;
+    border-radius:0px;
+
+}
+
+#box-one{
+    background-color: rgba(255, 196, 0, 0.5);
+}
+#box-two{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#box-three{
+    background-color: rgba(0, 89, 255, 0.5);
+}
+
+/* Footer-Styleing */
+footer{
+    text-align: center;
+    background-color: #1d1c1c;
+    color: white;
+    padding: 40px 0 40px 0;
+    line-height: 22px;
+}
+
